@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.main {
+    display: flex;
+    /* width: auto;
+    height: 12%;
+    background-color: pink;
+    margin: 50%; */
+}
+/* .main li{
+    float: right;
+    width:50%;
+}
+.main  ul li{
+    list-style: none;
+    margin:0px 8px;
+    display : inline-block;
+    line-height: 65px;
+} */
