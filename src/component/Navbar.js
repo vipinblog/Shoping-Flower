@@ -4,15 +4,9 @@ return(
     <div className='main'>
      
     <ul>
-       <li>
-        Home
-        </li>
-        <li>
-        Category
-        </li>
-        <li>
-        New Collection
-        </li>
+       <li><a href='Home'>Home</a> </li>
+       <li><a href='Home'>Category</a></li>
+        <li><a href='New Collection'> New Collection</a></li>
        
      </ul>
      </div>
