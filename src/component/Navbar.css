@@ -1,16 +1,122 @@
+body{
+    background-color: rgb(252, 237, 237);
+}
 .main {
     display: inline;
 
 }
 .main ul{
-    margin: 0;
-    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 95%;
 }
 .main ul li{
     float: right;
+    display: inline;
 }
 .main ul li a {
     display: block;
-    padding: 14% 50%;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(61, 101, 135);
+    font-size: small;
+}
+.ellipse{
+    width: 390px;
+    height: 390px;
+    border-radius: 100%;
+    background-color: #f0886e;
+    margin-top: 5%;
+    filter: blur(190px);
+    margin-right: 50%;
+}
+.ellipse1{
+    width: 450px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #DA6F53;
+    float: right;
+    filter: blur(70px); 
+}
+.flowers{
+    /* display: flex; */
+     display: grid;
+     grid-template-columns: 100px 100px; 
+     padding: 20px;
+     float: right;
+}
+/* .flower-1{
+    float: right;
+} */
+.flower-1 img {
+    height: 50%;
+    width:20%;
+    margin: 15%;
+    float: right;
+    border-radius: 25%;
+    border:  2px solid  #DA6F53;
+}
+.flower-2 img {
+    height: 50%;
+    margin: 15%;
+    width: 20%;
+    float: right;
+    border-radius: 25%;
+    border:  2px solid  #DA6F53;
+}
+.flower-3 img{
+    height: 50%;
+    width: 20%;
+    margin: 15%;
+    float: right;
+    border-radius: 25%;
+    border:  2px solid  #DA6F53;
+}
+.flower-4 img{
+    height: 50%;
+    width: 20%;
+    margin: 15%;
+    float: right;
+    border-radius: 25%;
+    border:  2px solid  #DA6F53;
 }
 
+.header{
+ margin-top: -160%;
+}
+.font{
+    font-style: italic;
+    margin: 10%;
+    font-size: 10px;
+}
+.paragraph {
+  margin: 10%;
+  margin-top: -10%;
+  
+}
+.content{
+    margin: 10%;
+    margin-top: -10%;
+    font-style: italic;
+}
+.space{
+ margin: 10%;
+ margin-top: -10%;
+ font-size: 10px;
+}
+.btn {
+    border: 2px solid  #DA6F53;
+    border-radius: 25px;
+    background-color: #DA6F53;
+    margin: 10%;
+    margin-top: -10%;
+    padding: 5px 10px;
+    color: white;
+}
+.newword{
+    padding: 5px 5px;
+    border-radius: 25px;
+    border-radius: 2px solid rgb(230, 230, 230);
+    
+}
