@@ -16,6 +16,9 @@ return(
        <li><a href='Category'>Category</a></li>
         <li><a href='Home'>Home</a></li>
     </ul>
+    </div>  
+    </nav>
+    <br/><br/>
     <div className='flowers'>
     <div className='flower-1'>
     <img src={Lotus} alt="description"/>
@@ -32,22 +35,22 @@ return(
     </div>
     <div className='ellipse'></div>
     <div className='ellipse'></div>
-   </div>  
+   
     
-    </nav>
+
     <section className='header'>
     <p className='font'>largest flower supplier</p>
     <h1 className='paragraph'>Flowers</h1> 
     <p className='content'>speak the language of LOVE</p>
     <p className='space'>Iargk dpsuk aiar sdt okgt Ug cgujdot.<br></br> ealsgetgt dpdsedlj gidt ud lal ldsi gigkgltuk</p>
-    <button className='btn'>Shop Now</button>
-    <button className='newword'>New Collection</button>
+    <div className='btn-container'>
+    <button className='shop-now '>Shop Now</button>
+    <button className='new-word'>New Collection</button>
+    </div>
     </section>
      
-     
-       
-    
     </>
+       
 )
 
 }
