@@ -1,10 +1,16 @@
 import React from 'react';
+import './Category.css';
+import Rose from  './image/Rose.jpg';
 function category(){
 return(
  <div className='varieties'>
   <div className='varieties-1'>
+    <img src={Rose} alt='description'/>
+    
+      <h1>Dream a little</h1>
   </div>
-  <div className='varieties-2'></div>  
+  <div className='varieties-2'>
+    </div>  
   <div className='varieties-3'></div>
   <div className='varieties-4'></div>
   <div className='varieties-5'></div>

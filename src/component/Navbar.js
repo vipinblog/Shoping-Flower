@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import Lily from "./image/Lily.jpg";
+import Sunflower from "./image/Sunflower.jpg";
 import Lotus from "./image/Lotus.jpg";
 import Plant from "./image/Plant.jpg"
 import Show from "./image/Show.jpg";
@@ -24,7 +24,7 @@ return(
     <img src={Lotus} alt="description"/>
     </div>
     <div className='flower-2'>
-    <img src={Lily} alt='img-decription'/>
+    <img src={Sunflower} alt='img-decription'/>
     </div>
     <div className='flower-3'>
     <img src={Show} alt='img-descriptions'/>
