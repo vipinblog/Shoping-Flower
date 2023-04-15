@@ -12,12 +12,20 @@ import Jasmine from "./image/Jasmine.jpg";
 import Hazelwood from "./image/Hazelwood.jpg";
 import Leman from "./image/Leman.jpg";
 import Camato from "./image/Camato.jpg";
-function category(){
+ function category(props){
+const changeGrade = (e) =>{
+  props.changeGradeIndex(e.target.value)
+} 
 return(
  <div className='varieties'>
   <div className='varieties-1'>
   <img src={Rose} alt='description' />
   <h6 id='bright'>Bright N Beautiful</h6>
+  <label>
+    <input type='rating' name='star' id={props.grade} value={props.index} onClick={changeGrade}/>
+    <svg width='58' height='58' viewBox='0 0 24 24' fill='none' stroke='#393939' strokeWidth='1' strokeLinecap='round' strokeLinejoin='round' style={props.style}>
+    </svg>
+  </label>
   </div>
   <div className='varieties-2'>
   <img src={Roses} alt='description'/>
