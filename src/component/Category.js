@@ -4,7 +4,7 @@ import Rose from  './image/Rose.jpg';
 import Roses from  './image/Roses.jpg';
 import swift from  './image/swift.jpg';
 import Sunflower from  './image/Sunflower.jpg';
-import Bunch from './image/Bunch.jpg';
+// import Bunch from './image/Bunch.jpg';
 import Valeria from './image/Valeria.jpg';
 import Shows from "./image/Shows.jpg";
 import Showflower from "./image/Showflower.jpg";
@@ -12,20 +12,20 @@ import Jasmine from "./image/Jasmine.jpg";
 import Hazelwood from "./image/Hazelwood.jpg";
 import Leman from "./image/Leman.jpg";
 import Camato from "./image/Camato.jpg";
- function category(props){
-const changeGrade = (e) =>{
-  props.changeGradeIndex(e.target.value)
-} 
+//  function category(props){
+// const changeGrade = (e) =>{
+//   props.changeGradeIndex(e.target.value)
+// } 
 return(
  <div className='varieties'>
   <div className='varieties-1'>
   <img src={Rose} alt='description' />
   <h6 id='bright'>Bright N Beautiful</h6>
-  <label>
-    <input type='rating' name='star' id={props.grade} value={props.index} onClick={changeGrade}/>
-    <svg width='58' height='58' viewBox='0 0 24 24' fill='none' stroke='#393939' strokeWidth='1' strokeLinecap='round' strokeLinejoin='round' style={props.style}>
+  {/* <label className='star-rating'>
+    <input type='radio' name='rating' id={props.grade} value={props.index} onClick={changeGrade}/>
+    <svg width='58' height='58' viewBox='0 0 24 24' fill='none' stroke='#393939' strokeWidth='1' strokeLinecap='star' strokeLinejoin='star' style={props.style}>
     </svg>
-  </label>
+  </label> */}
   </div>
   <div className='varieties-2'>
   <img src={Roses} alt='description'/>
@@ -40,7 +40,7 @@ return(
   <h6 className='sunflower'>Beautiful Sunflower</h6>
   </div>
   <div className='varieties-5'>
-  <img src={Bunch} alt='description'/>
+  {/* <img src={Bunch} alt='description'/> */}
    <h6>Bunch of Roses</h6>
   </div>
   <div className='varieties-6'> 
@@ -74,5 +74,5 @@ return(
   
  </div>
 )
-}
+
 export default category;

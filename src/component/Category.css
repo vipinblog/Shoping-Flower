@@ -202,7 +202,7 @@
     border-radius: 7px; 
     filter: brightness(100%); 
 }
-.varieties-10 img:hover{
+.varieties-10 img:hover {
     transform: scale(1.1);
     transition: all 0.4s ease-in-out;
 }
@@ -245,3 +245,34 @@
     transform: scale(1.1);
     transition: all 0.4s ease-in-out;
 }
+/* star css*/
+/* .container1{
+    /* padding: 14px; 
+      margin: 10px ;  */
+     /* margin-bottom: 100%; */
+/* }
+.result{ */
+    /* text-align: center; */
+    /* margin: 16px; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+/* }
+.stars{ */
+    /* justify-content: center; */
+    /* display: flex; */
+    /* gap: 8px; */
+/* }
+.star-rating {
+    /* position: relative;
+    cursor: pointer; */
+    /* float: right; */
+/* }
+.star-rating_radio-input{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+     margin-bottom:10%;
+    
+}   */
