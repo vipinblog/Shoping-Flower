@@ -1,4 +1,5 @@
 import React from 'react';
+
 // import Navbar from './component/Navbar';
 // import Category from './component/Category';
 // import Slider from './component/Slider';
