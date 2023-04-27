@@ -1,35 +1,36 @@
-import React from "react";
+import React, {useState} from "react";
 import { FaStar } from "react-icons/fa";
 import './Star.css';
 
-// const startGenerate = (numOfStarts = 5) => {
-//   const [selected, setSelected] = useState(0);
-//   return Array(numOfStarts)
-//   .fill()
-//   .map((item, i) =>( <Start key={i} 
-//   selected = {selected > i}
-//   OnSelected = {() => setSelected(i + 1)}/> )
-// )
-// };
-// const Start = () => {
-//   return <FaStar color={selected ? "yellow":"white"}
-//    onClick={onSelected}/>; 
-// };
-// const Star = () =>{
-//    return(
-//     <div>
-//     {startGenerate(10)}
-//     </div>
-//    );
-// }
-// export default Star;
-const Star = () =>{
- return(
+  const Star = () =>{
+  const [rating, setRating] = useState(null);
+  const [hover, setHover] = useState(null);
+  
+ return (
+
   <div>
-    {[...Array(5)].map(star =>{
-    <FaStar size={100}/>
-})}
+    
+      {[...Array(5)].map((star, i) => {
+        const ratingValue = i + 1;
+        return(
+  <label>  
+    <input type="button" name="rating" value={ratingValue}
+    onClick={() => setRating(ratingValue)}
+    />
+    <FaStar
+    className="star"
+    color={ratingValue <= ( hover || rating) ? "#ffc107" : "#e4e5e9"}
+     size={10}
+     onMouseEnter = {()=>setHover(ratingValue)}
+     onMouseLeave = {()=>setHover(null)}
+    />
+  </label>
+        )
+
+  })}
+  <p>The rating is {rating}.</p>
   </div>
- )
-}
+
+   );
+};
 export default Star;
