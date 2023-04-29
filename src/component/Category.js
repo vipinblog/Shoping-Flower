@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { FaStar } from "react-icons/fa";
-// import './Category.css';
+import './Category.css';
 import Rose from  './image/Rose.jpg';
 // import Roses from  './image/Roses.jpg';
 // import Swift from  './image/Swift.jpg';
@@ -18,16 +18,19 @@ import Rose from  './image/Rose.jpg';
 const Category =()=>{
   const [rating, setRating] = useState(null);
   const [hover, setHover] = useState(null);
-return(
+return (
  <div className='varieties'>
+
   <div className='varieties-1'>
   <img src={Rose} alt='description' />
-  <h6 id='bright'>Bright N Beautiful</h6>
+ 
+  
+
   {[...Array(5)].map((star, i) => {
         const ratingValue = i + 1;
-        return(
+        return (
   <label>  
-    <input type="radio" name="rating" value={ratingValue}
+    <input type="radio"   name="rating" value={ratingValue}
     onClick={() => setRating(ratingValue)}
     />
     <FaStar
@@ -41,8 +44,9 @@ return(
         )
 
   })}
-
+  <h6 id='bright'>Bright N Beautiful</h6>
   </div>
+ 
   {/* <div className='varieties-2'>
   <img src={Roses} alt='description'/>
   <h6 id='arrive'>New Arrival Flowers</h6>
