@@ -9,6 +9,8 @@ import './Star.css';
  return (
 
   <div>
+
+
     
       {[...Array(5)].map((star, i) => {
         const ratingValue = i + 1;
@@ -28,7 +30,7 @@ import './Star.css';
         )
 
   })}
-  <p>The rating is {rating}.</p>
+  {/* <p>The rating is {rating}.</p> */}
   </div>
 
    );

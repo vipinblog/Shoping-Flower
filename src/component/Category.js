@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
-import { FaStar } from "react-icons/fa";
+// import React, {useState} from 'react';
+// import { FaStar } from "react-icons/fa";
 import './Category.css';
+import Star from './Star';
 import Rose from  './image/Rose.jpg';
-// import Roses from  './image/Roses.jpg';
+import Roses from  './image/Roses.jpg';
 // import Swift from  './image/Swift.jpg';
 // import Sunflower from  './image/Sunflower.jpg';
 // import Bunch from './image/Bunch.jpg';
@@ -16,8 +17,8 @@ import Rose from  './image/Rose.jpg';
 
 
 const Category =()=>{
-  const [rating, setRating] = useState(null);
-  const [hover, setHover] = useState(null);
+  // const [rating, setRating] = useState(null);
+  // const [hover, setHover] = useState(null);
 return (
  <div className='varieties'>
 
@@ -25,8 +26,34 @@ return (
   <img src={Rose} alt='description' />
  
   
+  
 
-  {[...Array(5)].map((star, i) => {
+  {/* {[...Array(5)].map((star, i) => {
+    const ratingValue = i + 1;
+    return (
+      <label>  
+      <input type="radio"   name="rating" value={ratingValue}
+    onClick={() => setRating(ratingValue)}
+    />
+    <FaStar
+    className="star"
+    color={ratingValue <= ( hover || rating) ? "#ffc107" : "#e4e5e9"}
+     size={10}
+     onMouseEnter = {()=>setHover(ratingValue)}
+     
+     onMouseLeave = {()=>setHover(null)}
+     />
+  </label> 
+        )
+
+  })} */}
+  <h6 id='bright'>Bright N Beautiful</h6>
+     <star/>
+  </div>
+ 
+   <div className='varieties-2'>
+  <img src={Roses} alt='description'/>
+  {/* {[...Array(5)].map((star, i) => {
         const ratingValue = i + 1;
         return (
   <label>  
@@ -35,22 +62,18 @@ return (
     />
     <FaStar
     className="star"
-    color={ratingValue <= ( hover || rating) ? "#ffc107" : "#e4e5e9"}
+    color={ratingValue <= ( hover  || rating) ? "#ffc107" : "#e4e5e9"}
      size={10}
      onMouseEnter = {()=>setHover(ratingValue)}
      onMouseLeave = {()=>setHover(null)}
     />
-  </label>
+  </label> 
         )
 
-  })}
-  <h6 id='bright'>Bright N Beautiful</h6>
-  </div>
- 
-  {/* <div className='varieties-2'>
-  <img src={Roses} alt='description'/>
+  })} */}
   <h6 id='arrive'>New Arrival Flowers</h6>
-  </div>   */}
+  </div>   
+
   {/* <div className='varieties-3'>
     <img src={Swift} alt='description'/>
     <h6 className='beautiful'>Beautiful white roses</h6>
@@ -58,7 +81,7 @@ return (
   <div className='varieties-4'>
   <img src={Sunflower} alt='description'/>
   <h6 className='sunflower'>Beautiful Sunflower</h6>
-  </div> */}
+  </div> 
   {/* <div className='varieties-5'>
   <img src={Bunch} alt='description'/>
    <h6>Bunch of Roses</h6>
@@ -91,7 +114,6 @@ return (
     <img src={Camato} alt='description'/>
     <h6 className='product4'>Luxury collection of flower</h6>
   </div> */}
-  
  </div>
 );
 

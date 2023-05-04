@@ -4,7 +4,7 @@ import Navbar from './component/Navbar';
 import Category from './component/Category';
 // import Slider from './component/Slider';
 import Home from './component/Home';
-//  import Star from './component/Star';
+ import Star from './component/Star';
 // import './App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
        <Category/>  
        <Home/> 
        {/* <Slider/>  */}
-       {/* <Star/> */}
+       <Star/>
        
     </div>
   );
