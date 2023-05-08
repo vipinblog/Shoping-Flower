@@ -1,9 +1,9 @@
 // import React, {useState} from 'react';
 // import { FaStar } from "react-icons/fa";
-import './Category.css';
-import Star from './Star';
-import Rose from  './image/Rose.jpg';
-import Roses from  './image/Roses.jpg';
+// import './Category.css';
+// import Star from './Star';
+// import Rose from  './image/Rose.jpg';
+// import Roses from  './image/Roses.jpg';
 // import Swift from  './image/Swift.jpg';
 // import Sunflower from  './image/Sunflower.jpg';
 // import Bunch from './image/Bunch.jpg';
@@ -16,14 +16,14 @@ import Roses from  './image/Roses.jpg';
 // import Camato from "./image/Camato.jpg";
 
 
-const Category =()=>{
+// const Category =()=>{
   // const [rating, setRating] = useState(null);
   // const [hover, setHover] = useState(null);
-return (
- <div className='varieties'>
+// return (
+//  <div className='varieties'>
 
-  <div className='varieties-1'>
-  <img src={Rose} alt='description' />
+//   <div className='varieties-1'>
+//   <img src={Rose} alt='description' />
  
   
   
@@ -47,12 +47,12 @@ return (
         )
 
   })} */}
-  <h6 id='bright'>Bright N Beautiful</h6>
-     <star/>
-  </div>
+  // <h6 id='bright'>Bright N Beautiful</h6>
+  //    <star/>
+  // </div>
  
-   <div className='varieties-2'>
-  <img src={Roses} alt='description'/>
+  //  <div className='varieties-2'>
+  // <img src={Roses} alt='description'/>
   {/* {[...Array(5)].map((star, i) => {
         const ratingValue = i + 1;
         return (
@@ -71,8 +71,8 @@ return (
         )
 
   })} */}
-  <h6 id='arrive'>New Arrival Flowers</h6>
-  </div>   
+  // <h6 id='arrive'>New Arrival Flowers</h6>
+  // </div>   
 
   {/* <div className='varieties-3'>
     <img src={Swift} alt='description'/>
@@ -114,8 +114,8 @@ return (
     <img src={Camato} alt='description'/>
     <h6 className='product4'>Luxury collection of flower</h6>
   </div> */}
- </div>
-);
+//  </div>
+// );
 
-};
-export default Category;
+// };
+// export default Category;
