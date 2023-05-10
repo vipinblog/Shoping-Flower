@@ -1,12 +1,16 @@
 import React from "react";
-import ReactDOM from "react-dom";
+//import ReactDOM from "react-dom";
 import Card from "./Card";
 
+const Work =() =>{
+    return(
 
-ReactDOM.render(
     <>
-    <Card imgsrc='./image/Rose.jpg'
-    
+    <Card imgsrc='./image/Rose.jpg' 
+    title=""
     />
     </>
 )
+
+}
+export default Work;
