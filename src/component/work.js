@@ -1,16 +1,21 @@
 import React from "react";
-//import ReactDOM from "react-dom";
+
+import Rose from './image/Rose.jpg' ;
+// import ReactDOM from "react-dom";
 import Card from "./Card";
 
 const Work =() =>{
     return(
-
-    <>
-    <Card imgsrc='./image/Rose.jpg' 
-    title=""
+        
+    
+    <Card imgsrc={Rose} 
+     title = "The Beautiful flower"
     />
-    </>
+    
+    
 )
 
+
 }
+
 export default Work;

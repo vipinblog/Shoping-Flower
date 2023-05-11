@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import Sunflower from "./image/Sunflower.jpg";
 import Lotus from "./image/Lotus.jpg";
-import Plant from "./image/Plant.jpg"
+import Plant from "./image/Plant.jpg";
 import Show from "./image/Show.jpg";
 
 
