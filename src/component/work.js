@@ -3,7 +3,6 @@ import Burden from './image/Burden.jpg';
 import Bunch from './image/Bunch.jpg' ;
 import Shows from './image/Shows.jpg';
 import Lily from './image/Lily.jpg' ;
-
 import Swift from './image/Swift.jpg';
 import Valeria from './image/Valeria.jpg';
 import Jhon from './image/Jhon.jpg';
@@ -24,36 +23,38 @@ const Work =() =>{
 
 
     <Card imgsrc={Bunch}  
-    // title="The Beautiful Flower"
+     title="The Beautiful Roses"
+     
     />
 
   
       <Card imgsrc={Shows}  
-    // title="The Beautiful Flower"
+     title="The Sunflower"
     />
   
   
       <Card imgsrc={Lily}  
-    // title="The Beautiful Flower"
+     title="The Lily Flower"
     />
   
    < Card imgsrc={Swift}  
-  //  title="The Beautiful Flower"
+    title="The Beautiful Flower"
+    
   />
   
   
-   <Card imgsrc = {Valeria} 
-    // title="The Beautiful Flower"
+   <Card imgsrc = {Valeria} style={{height:"100px"}}
+   title="Luxury Roses"
    />
   
   
    <Card imgsrc={Jhon}   
-  //  title="The Beautiful Flower" 
+  title="Luxury Flower" 
    />
   
   
    <Card imgsrc = {Leman}  
-  //  title="The Beautiful Flower"
+  title="Brightness of flower"
    />
   
   </div>

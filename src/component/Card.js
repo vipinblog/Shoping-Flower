@@ -10,7 +10,7 @@ function Card (props){
         <img src={props.imgsrc} className="card_img"/> 
         <div className="card_info">
             <h6 className="card_category">{props.title}</h6>
-            
+
 
         </div>
             </div>
