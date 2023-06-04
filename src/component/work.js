@@ -4,12 +4,9 @@ import Bunch from './image/Bunch.jpg' ;
 import Shows from './image/Shows.jpg';
 import Lily from './image/Lily.jpg' ;
 import Swift from './image/Swift.jpg';
-import Valeria from './image/Valeria.jpg';
+import Hazelwood from './image/Hazelwood.jpg';
 import Jhon from './image/Jhon.jpg';
 import Leman from './image/Leman.jpg';
-// import Jasmine from './image/Jasmine.jpg';
-// import Hazelwood from './image/Hazelwood.jpg';
-// import ReactDOM from "react-dom";
 import Card from "./Card";
 import './Card.css';
 const Work =() =>{
@@ -22,43 +19,42 @@ const Work =() =>{
 
 
 
-    <Card imgsrc={Bunch}  
+    <Card imgsrc ={Bunch}  
      title="The Beautiful Roses"
      
     />
 
   
-      <Card imgsrc={Shows}  
+      <Card imgsrc ={Shows} 
      title="The Sunflower"
     />
   
   
-      <Card imgsrc={Lily}  
+      <Card imgsrc ={Lily}  
      title="The Lily Flower"
     />
   
-   < Card imgsrc={Swift}  
+   < Card imgsrc ={Swift}  
     title="The Beautiful Flower"
     
   />
-  
-  
-   <Card imgsrc = {Valeria} style={{height:"100px"}}
-   title="Luxury Roses"
-   />
-  
-  
-   <Card imgsrc={Jhon}   
-  title="Luxury Flower" 
-   />
-  
-  
-   <Card imgsrc = {Leman}  
-  title="Brightness of flower"
-   />
-  
-  </div>
 
+  
+     <Card imgsrc = {Hazelwood}    style="width:40%"
+    title="Luxury Roses"
+   />
+  
+  
+    <Card imgsrc = {Jhon}   
+  title="Luxury Flower" 
+    /> 
+  
+  
+    <Card imgsrc = {Leman}  
+   title="Brightness of flower"
+    /> 
+   
+</div>
 )
 
 
