@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from './component/Navbar';
 import  Work from './component/Work';
 import Card from './component/Card';
-
+import Data from './component/Data';
 // import Category from './component/Category';
 // import Slider from './component/Slider';
 // import Home from './component/Home';
@@ -16,6 +16,7 @@ function App() {
        <Navbar/>
        <Work/>
        <Card/>
+       <Data/>
        {/* <Category/>   */}
        {/* <Home/>  */}
        {/* <Slider/>  */}
