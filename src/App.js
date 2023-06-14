@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Actions from './Services/Actions';
 import Navbar from './component/Navbar';
 import  Work from './component/Work';
 import Card from './component/Card';
@@ -17,6 +17,7 @@ function App() {
        <Work/>
        <Card/>
        <Data/>
+       <Actions/>
        {/* <Category/>   */}
        {/* <Home/>  */}
        {/* <Slider/>  */}

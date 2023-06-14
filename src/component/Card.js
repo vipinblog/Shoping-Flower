@@ -1,7 +1,7 @@
 import React from "react";
 import './Card.css';
 function Card (props){
-
+       console.warn(props)
     return (
     
         
@@ -10,7 +10,8 @@ function Card (props){
         <img src={props.imgsrc} className="card_img"></img> 
         <div className="card_info">
         <h6 className="card_category">{props.title}</h6>
-           <button className="Add-to-button">add to cart</button>
+           <button onclick={()=>props.addToCartHandler()}
+           className="Add-to-button">add to cart</button>
         </div>
             </div>
             
